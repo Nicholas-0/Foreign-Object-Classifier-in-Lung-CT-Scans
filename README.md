@@ -1,4 +1,5 @@
 # Foreign Object Classifier in Lung CT Scans
+
 This project is a machine learning project which classifies whether a CT scan contains foreign objects. It is
 made using Python and PyTorch, a deep learning framework, and the model is trained on a large dataset of chest X-rays
 with strong annotations of foreign objects. Specifically, 4000 frontal chest X-ray images
@@ -40,3 +41,4 @@ label smoothing.
 
 ### Confusion Matrix
 ![Confusion Matrix](Images/confusion_matrix.png)
+
