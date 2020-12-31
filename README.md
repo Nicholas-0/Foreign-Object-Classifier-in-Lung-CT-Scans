@@ -18,8 +18,8 @@ graphs of the performance of model.
 ## Technical Details
 - **Data Augmentation** : Various transforms (such as `transforms.RandomAffine()`, `transforms.RandomVerticalFlip()`)
 are applied to train images using the PyTorch library `torchvision.transforms`
-before loading into a `DataLoader`. This helps the model to generalise better and increases model's performance.
-- **Feature Scaling** : The image tensors are normalised using `tranforms.Normalize()` to help get data within a range
+before loading into a `DataLoader`. This helps the model generalise better and increases model's performance.
+- **Feature Scaling** : The image tensors are normalised using `transforms.Normalize()` to help get data within a range
 and reduces the skewness which helps the model learn faster and better.
 - **Mini-batch Gradient Descent** : The data is batched into a batch of 8, fewer updates of the model means gradient
 descent is more computationally efficient.
